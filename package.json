@@ -1,0 +1,19 @@
+{
+  "name": "nix-demo",
+  "version": "1.0.0",
+  "description": "testing how nix works",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "nix": "nix-shell --pure shell.nix"
+  },
+  "author": "Hirwa Aldo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
