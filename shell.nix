@@ -33,6 +33,6 @@ stdenv.mkDerivation {
 
   # Post Shell Hook  and change time zone
   shellHook = ''
-    export TZ=America/New_York
+    export TZ="America/New_York" 
   '';
 }
